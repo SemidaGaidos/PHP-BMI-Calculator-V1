@@ -1,23 +1,4 @@
 
-
-<h3 style="background: blue; color: white; padding: 11px;">Chris' PHP BMI Calculator</h3>
-<hr>
-<p>Calculate in Kilograms and Meters</p>
-<form action="#" method="post">
-    <input type="number" name="userWeight" id="userWeight" placeholder="Enter Weight in Kg's" step="any">
-    <input type="number" name="userHeight" id="userHeight" placeholder="Enter Height in Meters" step="any">
-    <button style="background: lightblue" type="submit">Calculate</button>
-
-</form>
-<br><hr>
-<p>Calculate in Pounds and Inches</p>
-<form action="#" method="post">
-    <input type="number" name="userWeight2" id="userWeight2" placeholder="Enter Weight in Pounds">
-    <input type="number" name="userHeight2" id="userHeight2" placeholder="Enter Height in Inches">
-    <button style="background: lightgreen" type="submit">Calculate</button>
-
-</form>
-<br><hr>
 <?php
     $userHeight = ($_POST['userHeight']);
     $userWeight = ($_POST['userWeight']);
@@ -65,3 +46,20 @@
         }
         }
 ?>
+
+<p>Calculate in Kilograms and Meters</p>
+<form action="#" method="post">
+    <input type="number" name="userWeight" id="userWeight" placeholder="Enter Weight in Kg's" step="any">
+    <input type="number" name="userHeight" id="userHeight" placeholder="Enter Height in Meters" step="any">
+    <button style="background: lightblue" type="submit">Calculate</button>
+
+</form>
+<br><hr>
+<p>Calculate in Pounds and Inches</p>
+<form action="#" method="post">
+    <input type="number" name="userWeight2" id="userWeight2" placeholder="Enter Weight in Pounds">
+    <input type="number" name="userHeight2" id="userHeight2" placeholder="Enter Height in Inches">
+    <button style="background: lightgreen" type="submit">Calculate</button>
+
+</form>
+<br><hr>
