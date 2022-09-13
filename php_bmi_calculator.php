@@ -11,7 +11,7 @@
         $userHeightSquared = $h * $h;
         
         $bmi = $w / $userHeightSquared;
-        $ouput = floor($bmi); //Rounds the final value down
+        $ouput = floor($bmi); 
         
         echo("<p style='background: lightblue; padding: 11px;'>Your Calculated Body Mass Index is " . $ouput . "<br><hr>");
         }
@@ -21,7 +21,7 @@
         $times705 = $w * 705;
         $firstDivide = $times705 / $h;
         $secondDivide = $firstDivide / $h;
-        $flooredBmi = floor($secondDivide); //Rounds the final value down
+        $flooredBmi = floor($secondDivide); 
     
         echo("<p style='background: lightgreen; padding: 11px;'>Your Calculated Body Mass Index is " . $flooredBmi . "<br><hr>");
     }
